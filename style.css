@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("technologie/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow-y: auto;
+    font-style: italic;
+    
+}
+
+header {
+    text-align: left;
+    color: wheat;
+    
+}
+footer {
+    text-align:  center;
+    margin-top: 50vh;
+    margin-bottom: 3%;
+    font-family: cursive;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(224, 85, 85);
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(179, 255, 0);
+}
+a.on {
+    font-size: larger;
+}
+a.on:hover {
+    cursor: default;
+    color: white;
+
+}
+span.legend {
+    text-transform: uppercase;
+    text-decoration: underline red;
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000;
+}
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    display: inline;
+}
+.tsp li {
+    margin-bottom: 20px;
+}
+table tbody tr td {
+    border: 1px solid wheat;
+
+}
+ol ul li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+.outputinput img {
+    border-radius: 50px;
+    width: auto;
+    height: 250px;
+}
+section {
+    display: inline;
+}
+.images {
+    float: right;
+    height: 100px;
+    width: auto;
+}
+header h1 {
+    display: inline;
+}
